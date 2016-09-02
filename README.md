@@ -18,6 +18,7 @@ _**Hint:** This theme works with AJAX, so it won’t work with multiple domains 
 ## Features
 
 * Responsive layout
+* Contact Form
 * Blog navigation
 * Post navigation
 * Cover images for blog, tag and author archives
@@ -55,6 +56,16 @@ Build Grunt project:
 Distribute Grunt project:
 
 	grunt build
+
+## Contact Form
+
+edit `page-contact.hbs`, change `url: "https://formspree.io/zerodividedby0@gmail.com"` to `url: "https://formspree.io/your-email@example.com"`  
+The first time you submit through this form, formspree sends you a verification email, verify clicking the link, and you'll receive and email  
+when ever someone submits through your form.
+
+To create a page for contact form in your Ghost blog, create a new post with title 'Contact' and mark it as a static page. Make sure that the url  
+to the page is `yourblog.com/contact`, you can adjust your page to have this in the navigation tab.
+
 
 ## Copyright & License
 

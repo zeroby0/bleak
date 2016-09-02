@@ -1,11 +1,11 @@
 {
   "name": "bleak",
-  "version": "1.0.4",
+  "version": "1.0.4.1",
   "description": "Ghost Theme",
   "author": "Peter Amende, Aravind Reddy V",
   "repository": {
     "type": "git",
-    "url": "git://github.com/zutrinken/bleak.git"
+    "url": "git://github.com/zeroby0/bleak.git"
   },
   "license": "MIT",
   "devDependencies": {
